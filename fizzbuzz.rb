@@ -1,6 +1,6 @@
 require 'pry'
 
-def fizzbuzz(n)
+def fizzbuzz
   binding.pry
   if n%3 == 0 && n%5 == 0
     return "FizzBuzz"
